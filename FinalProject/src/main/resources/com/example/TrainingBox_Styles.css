@@ -1,0 +1,17 @@
+.custom-collapsible-pane .title {
+    -fx-text-fill: gray;
+    -fx-background-color: transparent;
+    -fx-alignment: center-left; /* 将标题左对齐 */
+}
+
+.custom-collapsible-pane .content {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-border-width: 0;
+}
+
+.custom-collapsible-pane .toggle-graphic {
+    -fx-background-color: transparent;
+    -fx-shape: "M0,0 L10,5 L0,10 Z";
+    -fx-padding: 0 5 0 0; /* 将图示右对齐 */
+}
